@@ -126,3 +126,10 @@ SELECT User.name, Member.role, Course.title
   ON Member.user_id = User.id AND Member.course_id = Course.id
   ORDER BY Course.title, Member.role DESC, User.name 
 
+
+Exercises
+	Email: https://www.youtube.com/watch?v=uQ3Qv1z_Vao , Code: https://www.py4e.com/code3/emaildb.py
+	Roster: https://www.youtube.com/watch?v=qEkUEAz8j3o , Code: https://www.py4e.com/code3/roster.zip
+	Tracks: https://www.youtube.com/watch?v=I-E7avcPeSE , Code: https://www.py4e.com/code3/tracks.zip
+	Twitter spider: https://www.youtube.com/watch?v=xBaJddvJL4A  , Code: https://www.py4e.com/code3/twspider.py
+
