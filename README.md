@@ -10,6 +10,7 @@ Personal repo for python learning purposes.
 * https://www.geeksforgeeks.org/python-programming-language/?ref=shm
   * https://www.geeksforgeeks.org/python-create-and-write-on-excel-file-using-xlsxwriter-module/
 * https://edube.org/study/pe1
+* https://skillsforall.com/catalog?category=course&subject+areas=programming 
 
 # Certification
 
