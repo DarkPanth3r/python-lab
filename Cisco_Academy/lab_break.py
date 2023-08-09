@@ -1,4 +1,4 @@
-#3.2.1.9 LAB: The break statement - Stuck in a loop
+# 3.2.9   LAB   The break statement – Stuck in a loop
 
 sword = "chupacabra"
 

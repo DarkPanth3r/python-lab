@@ -1,3 +1,5 @@
+# 3.2.10 LAB The continue statement – the Ugly Vowel Eater
+
 # Prompt the user to enter a word
 # and assign it to the user_word variable.
 user_word = input("Enter your word: \n")

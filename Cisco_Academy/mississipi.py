@@ -1,6 +1,6 @@
 import time
 
-#3.2.1.6 LAB: Essentials of the for loop - counting mississippily
+# 3.2.7 LAB Essentials of the for loop – counting mississippily
 
 # Write a for loop that counts to five.
     # Body of the loop - print the loop iteration number and the word "Mississippi".

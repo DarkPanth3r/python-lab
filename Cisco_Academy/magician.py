@@ -1,3 +1,5 @@
+# 3.2.4 LAB Guess the secret number
+
 secret_number = 777
 
 print(

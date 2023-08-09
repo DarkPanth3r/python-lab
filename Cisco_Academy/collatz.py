@@ -1,3 +1,4 @@
+# 3.2.15 LAB Collatz's hypothesis
 # https://en.wikipedia.org/wiki/Collatz_conjecture
 
 number = int(input('Enter a positive number: '))

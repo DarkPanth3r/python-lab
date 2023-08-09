@@ -1,3 +1,5 @@
+# 3.2.11   LAB   The continue statement – the Pretty Vowel Eater
+
 word_without_vowels = ""
 
 # Prompt the user to enter a word
@@ -20,6 +22,6 @@ for letter in user_word:
     else:
         word_without_vowels += letter
 
+# Print the word assigned to word_without_vowels.
 print(word_without_vowels)
 
-# Print the word assigned to word_without_vowels.

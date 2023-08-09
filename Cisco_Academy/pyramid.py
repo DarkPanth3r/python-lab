@@ -1,3 +1,5 @@
+# 3.2.14 LAB Essentials of the while loop
+
 blocks = int(input("Enter the number of blocks: "))
 #
 # Write your code here.
