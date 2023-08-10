@@ -1,3 +1,4 @@
+# 3.6.6 LAB Operating with lists ‒ basics
 #Program removes repetead numbers on array
 my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 u_list = [] 
