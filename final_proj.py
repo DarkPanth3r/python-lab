@@ -1,6 +1,8 @@
 #PROJECT  Tic-Tac-Toe 
 from random import randrange
 
+# The function accepts one parameter containing the board's current status
+# and prints it out to the console.
 def display_board(board):
 	print("+-------" * 3,"+", sep="")
 	for row in range(3):
@@ -11,7 +13,8 @@ def display_board(board):
 		print("|       " * 3,"|",sep="")
 		print("+-------" * 3,"+",sep="")
 
-
+# The function accepts the board's current status, asks the user about their move, 
+# checks the input, and updates the board according to the user's decision.
 def enter_move(board):
 	ok = False	# fake assumption - we need it to enter the loop
 	while not ok:
@@ -31,6 +34,8 @@ def enter_move(board):
 	board[row][col] = 'O' 	# set '0' at the selected square
 
 
+# The function browses the board and builds a list of all the free squares; 
+# the list consists of tuples, while each tuple is a pair of row and column numbers.
 def make_list_of_free_fields(board):
 	free = []	# the list is empty initially
 	for row in range(3): # iterate through rows
@@ -40,6 +45,8 @@ def make_list_of_free_fields(board):
 	return free
 
 
+# The function analyzes the board's status in order to check if 
+# the player using 'O's or 'X's has won the game
 def victory_for(board,sgn):
 	if sgn == "X":	# are we looking for X?
 		who = 'me'	# yes - it's computer's side
@@ -61,7 +68,7 @@ def victory_for(board,sgn):
 		return who
 	return None
 
-
+# The function draws the computer's move and updates the board.
 def draw_move(board):
 	free = make_list_of_free_fields(board) # make a list of free fields
 	cnt = len(free)
@@ -90,8 +97,8 @@ while len(free):
 
 display_board(board)
 if victor == 'you':
-	print("You won!")
+	print("Human won!")
 elif victor == 'me':
-	print("I won")
+	print("Computer won!")
 else:
-	print("Tie!")
+	print("Tie! Lets try again?")
